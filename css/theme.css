@@ -81,6 +81,25 @@
   :root {
     scroll-behavior: smooth; } }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  color: var(--bs-heading-color);
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
